@@ -1,0 +1,13 @@
+name: My Great Theme
+type: theme
+description: This is my first theme project
+core: 8.x
+screenshot: mytheme.jpeg
+
+regions:
+  header: Header
+  content: Content
+  sidebar_first: Sidebar First
+  footer: Footer
+  page_top: Page Top
+  page_bottom: Page Bottom
