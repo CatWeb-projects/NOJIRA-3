@@ -82,7 +82,7 @@
   <header>
     {{ title_prefix }}<hr>
     {% if label and not page %}
-      <h2{{ title_attributes.addClass('node__title', 'article__title') }}>
+      <h2{{title_attributes.addClass('node__title','article__title')}}>
         <a href="{{ url }}" rel="bookmark">{{ label }}</a>
       </h2>
     {% endif %}
@@ -104,6 +104,9 @@
     {{ content }}
   </div>
   {% if teaser %}
-    hi there
+    {% include directory ~ '/components/blocks/card.twig' with {
+      title: 'hello card with twigs',
+      description: 'Description twig get that'
+    } only %}
   {% endif %}
 </article>
