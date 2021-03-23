@@ -1,3 +1,7 @@
 body {
   font-family: "Pacifico";
 }
+
+.article__title {
+  background-color: rgb(204, 224, 198);
+}

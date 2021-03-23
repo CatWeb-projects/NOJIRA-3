@@ -78,11 +78,11 @@
   ]
 %}
 {{ attach_library('bartik/classy.node') }}
-<article{{ attributes.addClass(classes) }}>
+<article{{attributes.addClass(classes)}}>
   <header>
     {{ title_prefix }}<hr>
     {% if label and not page %}
-      <h2{{title_attributes.addClass('node__title')}}>
+      <h2{{ title_attributes.addClass('node__title', 'article__title') }}>
         <a href="{{ url }}" rel="bookmark">{{ label }}</a>
       </h2>
     {% endif %}
@@ -103,4 +103,7 @@
   <div{{content_attributes.addClass('node__content','clearfix')}}>
     {{ content }}
   </div>
+  {% if teaser %}
+    hi there
+  {% endif %}
 </article>

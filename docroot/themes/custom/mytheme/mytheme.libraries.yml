@@ -1,12 +1,7 @@
-global-css:
+global-styling:
   version: VERSION
   css:
     theme:
-    css/elements.css: {}
-    css/layout.css: {}
-    css/print.css: { media: print }
-    css/colors.css: {}
-    css/maintenance-page.css: {}
-
-libraries:
-  - mytheme/global-css
+      css/styles.css: {}
+  js:
+    js/scripts.js: {}

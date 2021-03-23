@@ -74,7 +74,7 @@ $config['system.performance']['js']['preprocess'] = FALSE;
  * Uncomment the code below to only store migrations in memory and not in the
  * database. This makes it easier to develop custom migrations.
  */
-# $settings['cache']['bins']['discovery_migration'] = 'cache.backend.memory';
+  $settings['cache']['bins']['discovery_migration'] = 'cache.backend.memory';
 
 /**
  * Disable Internal Page Cache.
