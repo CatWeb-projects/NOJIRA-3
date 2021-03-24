@@ -5,3 +5,13 @@ global-styling:
       css/styles.css: {}
   js:
     js/scripts.js: {}
+
+card-styles:
+  version: VERSION
+  css:
+    theme:
+      css/card.css: {}
+
+card-scripts:
+  js:
+    js/card.js: {}

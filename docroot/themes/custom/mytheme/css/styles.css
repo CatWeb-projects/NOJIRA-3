@@ -5,3 +5,7 @@ body {
 .article__title {
   background-color: rgb(204, 224, 198);
 }
+
+.card {
+  background-color: green;
+}
