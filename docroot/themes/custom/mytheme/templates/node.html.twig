@@ -105,8 +105,11 @@
   </div>
   {% if teaser %}
     {% include directory ~ '/components/blocks/card.twig' with {
-      title: 'hello card with twigs',
-      description: 'Description twig get that'
+      title: title_suffix.rdf_meta_title['#metadata'].0.content,
+      description: content.body.0,
+      img: content.field_image.0,
+      type: label['#bundle'],
+      author: author_name
     } only %}
   {% endif %}
 </article>
