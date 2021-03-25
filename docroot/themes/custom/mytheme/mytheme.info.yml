@@ -6,8 +6,8 @@ base theme: bartik
 screenshot: mytheme.jpeg
 libraries:
   - mytheme/global-styling
-  - mytheme/card-styles
-  - mytheme/card-scripts
+  # - mytheme/card-styles
+  # - mytheme/card-scripts
 
 regions:
   header: Header
